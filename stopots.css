@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #211d56;
+}
+
+.fundo {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 550px;
+    border: 5px #bcb7ff;
+    border-radius: 20px;
+    background-color: #5f57bb;
+}
+
+.logo {
+    width: 250px;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+}
+
+.avatar {
+    background-color: #bcb7ff;
+    border: 2px #e0ac1e;
+    border-radius: 50%;
+}
+
+.inpu {
+    position: absolute;
+    margin: 27px -150px;
+}
+
+.perfil {
+    display: flex;
+}
+
+.action {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: -10px 220px;
+}
